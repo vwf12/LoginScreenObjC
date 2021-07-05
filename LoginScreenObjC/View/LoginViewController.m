@@ -123,6 +123,8 @@
             _correctUsernameInput = false;
         } else {
             _correctUsernameInput = true;
+            [usernameField.layer setBorderColor:Rgb2UIColor(145, 199, 177).CGColor];
+            
         }
         
         if (![password isEqual: @"password"]) {
@@ -130,6 +132,7 @@
             _correctPasswordInput = false;
         } else {
             _correctPasswordInput = true;
+            [passwordField.layer setBorderColor:Rgb2UIColor(145, 199, 177).CGColor];
         }
         [self failedAuthhorization];
     }
