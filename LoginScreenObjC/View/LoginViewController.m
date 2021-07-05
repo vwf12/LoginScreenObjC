@@ -35,7 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.correctPasswordInput = true;
+    self.correctUsernameInput = true;
     self.correctPasswordInput = true;
     [self createLoginView];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard)];
@@ -59,6 +59,7 @@
     usernameField.layer.cornerRadius = 5;
     [usernameField.layer setBorderColor:Rgb2UIColor(76, 92, 104).CGColor];
     [usernameField.layer setBorderWidth:1.5];
+    usernameField.clearsOnBeginEditing = false;
     //    MARK: Setup password field
     passwordField = [[UITextField alloc] initWithFrame:CGRectMake(36, CGRectGetMaxY(usernameField.frame) + 30, 303, 40)];
     passwordField.placeholder=@"Password";
@@ -234,10 +235,8 @@
     NSString * input = [[secureInputArray valueForKey:@"description"] componentsJoinedByString:@" "];
     secureInput.text = input;
     if ([secureInputArray count] == 3) {
-        NSLog(@"secure input max");
         NSArray *correctSecureInput = [[NSArray alloc]initWithObjects:@1, @3, @2, nil];
         if ([secureInputArray isEqual:correctSecureInput]) {
-            NSLog(@"correct secure input");
             [self correctSecureInput];
         } else {
             [self wrongSecureInput];
