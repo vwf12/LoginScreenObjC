@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		74B8D6BB268F06F5002DB54F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B8D6BA268F06F5002DB54F /* AppDelegate.m */; };
 		74B8D6BE268F06F5002DB54F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B8D6BD268F06F5002DB54F /* SceneDelegate.m */; };
-		74B8D6C1268F06F5002DB54F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B8D6C0268F06F5002DB54F /* ViewController.m */; };
-		74B8D6C4268F06F5002DB54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B8D6C2268F06F5002DB54F /* Main.storyboard */; };
 		74B8D6C6268F06F8002DB54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B8D6C5268F06F8002DB54F /* Assets.xcassets */; };
 		74B8D6C9268F06F8002DB54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B8D6C7268F06F8002DB54F /* LaunchScreen.storyboard */; };
 		74B8D6CC268F06F8002DB54F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B8D6CB268F06F8002DB54F /* main.m */; };
+		74B8D6DB268F0F63002DB54F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B8D6D9268F0F63002DB54F /* LoginViewController.m */; };
+		74B8D6DC268F0F63002DB54F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B8D6DA268F0F63002DB54F /* LoginViewController.xib */; };
+		74D0AA4B2692FB94004A9307 /* person_fill_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AA4A2692FB94004A9307 /* person_fill_100.png */; };
+		74D0AA4D269303D7004A9307 /* person_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AA4C269303D7004A9307 /* person_100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +24,16 @@
 		74B8D6BA268F06F5002DB54F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		74B8D6BC268F06F5002DB54F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		74B8D6BD268F06F5002DB54F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		74B8D6BF268F06F5002DB54F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74B8D6C0268F06F5002DB54F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74B8D6C3268F06F5002DB54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B8D6C5268F06F8002DB54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B8D6C8268F06F8002DB54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B8D6CA268F06F8002DB54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B8D6CB268F06F8002DB54F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B8D6D8268F0F63002DB54F /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		74B8D6D9268F0F63002DB54F /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		74B8D6DA268F0F63002DB54F /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		74B8D6DD268F6FA2002DB54F /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		74D0AA4A2692FB94004A9307 /* person_fill_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_fill_100.png; sourceTree = "<group>"; };
+		74D0AA4C269303D7004A9307 /* person_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_100.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7448191A2692442B008DD13F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				74D0AA4C269303D7004A9307 /* person_100.png */,
+				74D0AA4A2692FB94004A9307 /* person_fill_100.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		74B8D6AD268F06F5002DB54F = {
 			isa = PBXGroup;
 			children = (
@@ -61,19 +75,29 @@
 		74B8D6B8268F06F5002DB54F /* LoginScreenObjC */ = {
 			isa = PBXGroup;
 			children = (
+				7448191A2692442B008DD13F /* Images */,
+				74B8D6D2268F0CB4002DB54F /* View */,
 				74B8D6B9268F06F5002DB54F /* AppDelegate.h */,
 				74B8D6BA268F06F5002DB54F /* AppDelegate.m */,
 				74B8D6BC268F06F5002DB54F /* SceneDelegate.h */,
 				74B8D6BD268F06F5002DB54F /* SceneDelegate.m */,
-				74B8D6BF268F06F5002DB54F /* ViewController.h */,
-				74B8D6C0268F06F5002DB54F /* ViewController.m */,
-				74B8D6C2268F06F5002DB54F /* Main.storyboard */,
+				74B8D6DD268F6FA2002DB54F /* SF-Pro-Rounded-Regular.otf */,
 				74B8D6C5268F06F8002DB54F /* Assets.xcassets */,
 				74B8D6C7268F06F8002DB54F /* LaunchScreen.storyboard */,
 				74B8D6CA268F06F8002DB54F /* Info.plist */,
 				74B8D6CB268F06F8002DB54F /* main.m */,
 			);
 			path = LoginScreenObjC;
+			sourceTree = "<group>";
+		};
+		74B8D6D2268F0CB4002DB54F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74B8D6D8268F0F63002DB54F /* LoginViewController.h */,
+				74B8D6D9268F0F63002DB54F /* LoginViewController.m */,
+				74B8D6DA268F0F63002DB54F /* LoginViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +156,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D0AA4D269303D7004A9307 /* person_100.png in Resources */,
+				74B8D6DC268F0F63002DB54F /* LoginViewController.xib in Resources */,
 				74B8D6C9268F06F8002DB54F /* LaunchScreen.storyboard in Resources */,
 				74B8D6C6268F06F8002DB54F /* Assets.xcassets in Resources */,
-				74B8D6C4268F06F5002DB54F /* Main.storyboard in Resources */,
+				74D0AA4B2692FB94004A9307 /* person_fill_100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B8D6C1268F06F5002DB54F /* ViewController.m in Sources */,
 				74B8D6BB268F06F5002DB54F /* AppDelegate.m in Sources */,
 				74B8D6CC268F06F8002DB54F /* main.m in Sources */,
 				74B8D6BE268F06F5002DB54F /* SceneDelegate.m in Sources */,
+				74B8D6DB268F0F63002DB54F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		74B8D6C2268F06F5002DB54F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B8D6C3268F06F5002DB54F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74B8D6C7268F06F8002DB54F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +231,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -225,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,14 +289,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5238FCNJHS;
 				INFOPLIST_FILE = LoginScreenObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5238FCNJHS;
 				INFOPLIST_FILE = LoginScreenObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
