@@ -106,6 +106,7 @@
 - (void) buttonHighlight {
     [authorizeButton setBackgroundColor:[Rgb2UIColor(128, 164, 237) colorWithAlphaComponent:0.2]];
     authorizeButton.titleLabel.alpha = 0.4;
+    authorizeButton.imageView.alpha = 1.0;
 }
 
 - (void)checkAuthorize {
